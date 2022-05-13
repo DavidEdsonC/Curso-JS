@@ -22,6 +22,10 @@ div {
     padding: 8px;
 }
 
+select {
+    overflow:hidden; 
+}
+
 footer {
     color: white;
     text-align: center;
