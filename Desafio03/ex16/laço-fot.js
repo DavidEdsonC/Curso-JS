@@ -11,6 +11,10 @@ function contar() {
         let i = Number(ini.value)
         let f = Number(fim.value)
         let p = Number(passo.value)
+        if ( p <= 0){
+            window.alert('Pré-encha o Campo de [PASSOS] minimo de PASSOS 1')
+            p = 1
+        }
         if (i < f) {
             // Contagem crescente
             for (let c = i; c <= f; c += p) {
